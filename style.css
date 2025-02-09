@@ -47,3 +47,22 @@ body{
 .play-board .head {
   background: #60cbff;
 }
+
+.controls{
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls i{
+  padding: 20px 0;
+  color: #b8c6dc;
+  text-align: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  width: calc(100% / 4);
+  border-right: 1px solid #171b26;
+}
+
+.controls i:hover{
+  color: #171b26;
+}
