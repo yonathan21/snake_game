@@ -39,3 +39,7 @@ body{
   grid-template: repeat(30 , 1fr)/ repeat(30 , 1fr);
   background: #212837;
 }
+
+.play-board .food {
+  background: #ff003d;
+}
